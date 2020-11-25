@@ -1,0 +1,90 @@
+.addProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.addProducts_container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+
+.addProducts_container >h1 {
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.addProducts_container > form > h5{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.addProducts_container > form > h6{
+    margin: 0;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.addProducts_container > form >input {
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: white;
+    width: 98%;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
+}
+
+.addProducts_container > form >textarea {
+    height: 75px;
+    margin-bottom: 15px;
+    background-color: white;
+    width: 98%;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
+    resize: none;
+}
+
+.addProducts_signInButton{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+}
+
+.addProducts_description{
+    height: 60px !important;
+    text-overflow: clip;
+
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.checkbox > h5 {
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.checkbox > input{
+    color: black;
+    background-color: black;
+}

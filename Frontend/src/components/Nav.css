@@ -1,0 +1,19 @@
+.nav_title{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_username{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.nav_username > h6{
+    margin: 0;
+    font-weight: normal;
+
+}.nav_username > h3{
+    margin: 0;
+}
+

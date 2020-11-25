@@ -1,0 +1,18 @@
+.featuredProduct{
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #59baff;
+    border-radius: 15px;
+    background-color: white;
+    height: 80%;
+    min-width: 150px;
+    margin-left: 30px;
+}
+
+.featuredProduct_title{
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+
+}

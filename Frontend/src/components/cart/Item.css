@@ -1,0 +1,30 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item_details{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.item_title{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.item_text{
+    margin: 0;
+    font-weight: normal;
+}
+
+.item_img{
+    height: 75px;
+}

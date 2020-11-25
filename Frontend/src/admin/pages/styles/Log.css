@@ -1,0 +1,64 @@
+.log{
+    height: 100vh;
+    /* background-color: gray; */
+}
+
+.log_mainContainer{
+    background-color: white;
+    /* display: flex; */
+    border-style: solid;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    max-width: 650px;
+    margin-bottom: 100px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.log_mainContainer > h1 {
+    margin: 0;
+    font-weight: 500;
+}
+
+
+.log_item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.log_itemContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.log_itemDetailsTitle{
+    color: gray;
+    font-size: 14px;
+    margin: 0px;
+    margin-right: 15px;
+}
+.log_itemDetails{
+    color: gray;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.item_devider{
+    margin-top: 20px;
+    height: 1px;
+    width: 80%;
+    background-color: darkgray;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+.log_mainContainer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

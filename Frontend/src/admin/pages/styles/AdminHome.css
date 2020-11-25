@@ -1,0 +1,100 @@
+.container{
+    align-content: center;
+    margin-top: 30px;
+}
+
+
+
+.adminHome_bookContainer{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    /* height: 400px; */
+    max-width: 620px;
+    margin-bottom: 100px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.adminHome_bookContainer > button{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.adminHome_featuredContainer{
+    display: flex;
+    border-style: solid;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    height: 300px;
+    max-width: 620px;
+    margin-bottom: 100px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+
+.edit_button{
+    background: #f0c14b;
+    border-radius: 2px;
+    width:100%;
+    height: 25px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+
+
+}
+
+.delete_button{
+    background:#ff513d;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #911709 #911709 #911709;
+    cursor: pointer;
+
+
+}
+
+
+
+@media only screen and (max-width: 620px) {
+
+.adminHome_bookContainer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+.home_featuredContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home_nav{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home_productList{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
